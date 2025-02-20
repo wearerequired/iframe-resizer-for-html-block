@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.2/block.json",
+  "name": "plugin-name/example",
+  "apiVersion": 2,
+  "category": "text",
+  "title": "Example Block",
+  "description": "How to create a block.",
+  "textdomain": "plugin-name",
+  "supports": {
+    "customClassName": false,
+    "html": false,
+    "color": {
+      "text": false,
+      "background": true,
+      "gradient": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "attributes": {},
+  "example": {},
+  "editorScript": "plugin-name-blocks-editor",
+  "editorStyle": "plugin-name-blocks-editor",
+  "style": "file:style-blocks.css",
+  "viewScript": "file:example-block-view.js"
+}

@@ -1,0 +1,27 @@
+name: Auto-merge
+
+on:
+  pull_request_target:
+    branches:
+      - master
+
+permissions: read-all
+
+jobs:
+  auto-merge:
+    name: Check and enable auto-merge
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+
+    steps:
+      - name: Get Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@d7267f607e9d3fb96fc2fbe83e0af444713e90b7 # v2.3.0
+
+      - name: Enable auto-merge for minor and patch version updates
+        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-minor' || steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.REQUIRED_COM_REPO_ACCESS_PAT }}

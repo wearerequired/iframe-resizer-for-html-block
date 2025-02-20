@@ -1,0 +1,51 @@
+{
+  "name": "wearerequired/plugin-name",
+  "description": "Plugin description.",
+  "license": "GPL-2.0-or-later",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "required",
+      "email": "info@required.ch",
+      "homepage": "https://required.com",
+      "role": "Company"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "szepeviktor/phpstan-wordpress": "^1.0 || ^2.0",
+    "wearerequired/traduttore-registry": "^2.0"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || ^1.0",
+    "wearerequired/coding-standards": "^6.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Required\\PluginName\\": "inc"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "platform-check": false
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  },
+  "scripts": {
+    "analyze": "vendor/bin/phpstan analyze --no-progress",
+    "format": "vendor/bin/phpcbf --report-summary --report-source .",
+    "lint": "vendor/bin/phpcs --report-summary --report-source ."
+  },
+  "scripts-descriptions": {
+    "analyze": "Run static analysis",
+    "format": "Detect and automatically fix most coding standards issues",
+    "lint": "Detect coding standards issues"
+  }
+}

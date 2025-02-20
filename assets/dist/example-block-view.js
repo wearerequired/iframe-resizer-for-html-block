@@ -1,0 +1,1 @@
+window.addEventListener("load",(()=>{document.querySelectorAll(".wp-block-plugin-name-example").forEach((e=>{e.classList.add("wp-block-plugin-name-example--active")}))}));
