@@ -12,7 +12,6 @@ phpcs.xml.dist export-ignore
 phpstan.neon.dist export-ignore
 postcss.config.js export-ignore
 svgo.config.js export-ignore
-webpack.config.js export-ignore
 
 # Treat build files as binary to ignore them from diffs.
 assets/dist/* -diff
