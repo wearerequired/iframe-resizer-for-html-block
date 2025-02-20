@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name: Plugin Name
- * Plugin URI: https://github.com/wearerequired/plugin-name
- * Description: Plugin description.
+ * Plugin Name: iframe-resizer for HTML Block
+ * Plugin URI: https://github.com/wearerequired/iframe-resizer-for-html-block
+ * Description: Extends the HTML block with a setting to enable iframe resizing.
  * Version: 0.1.0
  * Requires at least: 6.6
  * Requires PHP: 8.2
  * Author: required
  * Author URI: https://required.com
  * Update URI: false
- * Text Domain: plugin-name
+ * Text Domain: iframe-resizer-for-html-block
  * License: GPL v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -32,7 +32,7 @@
 
 declare( strict_types=1 );
 
-namespace Required\PluginName;
+namespace Required\IframeResizerForHtmlBlock;
 
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	require __DIR__ . '/vendor/autoload.php';

@@ -1,4 +1,4 @@
-# Plugin Name
+# iframe-resizer for HTML Block
 A custom WordPress plugin.
 
 ## Plugin Development

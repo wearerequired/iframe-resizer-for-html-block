@@ -5,10 +5,10 @@
 
 declare( strict_types=1 );
 
-namespace Required\PluginName\Blocks;
+namespace Required\IframeResizerForHtmlBlock\Blocks;
 
-use const Required\PluginName\PLUGIN_DIR;
-use const Required\PluginName\PLUGIN_FILE;
+use const Required\IframeResizerForHtmlBlock\PLUGIN_DIR;
+use const Required\IframeResizerForHtmlBlock\PLUGIN_FILE;
 
 /**
  * Inits plugin.
@@ -34,18 +34,18 @@ function register_assets(): void {
 	$blocks_script_asset = require PLUGIN_DIR . '/assets/dist/blocks.asset.php';
 
 	wp_register_script(
-		'plugin-name-blocks-editor',
+		'iframe-resizer-for-html-block-blocks-editor',
 		plugins_url( 'assets/dist/blocks.js', PLUGIN_FILE ),
 		$blocks_script_asset['dependencies'],
 		$blocks_script_asset['version'],
 		true
 	);
 
-	wp_set_script_translations( 'plugin-name-blocks-editor', 'plugin-name' );
+	wp_set_script_translations( 'iframe-resizer-for-html-block-blocks-editor', 'iframe-resizer-for-html-block' );
 
 	if ( file_exists( PLUGIN_DIR . '/assets/dist/blocks.css' ) ) {
 		wp_register_style(
-			'plugin-name-blocks-editor',
+			'iframe-resizer-for-html-block-blocks-editor',
 			plugins_url( 'assets/dist/blocks.css', PLUGIN_FILE ),
 			[],
 			filemtime( PLUGIN_DIR . '/assets/dist/blocks.css' )

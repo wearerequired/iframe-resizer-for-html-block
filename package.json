@@ -1,8 +1,8 @@
 {
-  "name": "@wearerequired/plugin-name",
+  "name": "@wearerequired/iframe-resizer-for-html-block",
   "version": "0.0.0",
   "private": true,
-  "description": "Plugin description.",
+  "description": "Extends the HTML block with a setting to enable iframe resizing.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "wp-scripts build",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wearerequired/wordpress-plugin-boilerplate.git"
+    "url": "git+https://github.com/wearerequired/iframe-resizer-for-html-block.git"
   },
   "author": "required gmbh",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/wearerequired/wordpress-plugin-boilerplate/issues"
+    "url": "https://github.com/wearerequired/iframe-resizer-for-html-block/issues"
   },
-  "homepage": "https://github.com/wearerequired/wordpress-plugin-boilerplate#readme",
+  "homepage": "https://github.com/wearerequired/iframe-resizer-for-html-block#readme",
   "devDependencies": {
     "@types/node": "22.13.4",
     "@types/webpack-env": "1.18.8",
@@ -54,7 +54,7 @@
         "error",
         {
           "allowedTextDomain": [
-            "plugin-name"
+            "iframe-resizer-for-html-block"
           ]
         }
       ]

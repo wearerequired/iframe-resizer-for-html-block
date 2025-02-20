@@ -1,6 +1,6 @@
 {
-  "name": "wearerequired/plugin-name",
-  "description": "Plugin description.",
+  "name": "wearerequired/iframe-resizer-for-html-block",
+  "description": "Extends the HTML block with a setting to enable iframe resizing.",
   "license": "GPL-2.0-or-later",
   "type": "wordpress-plugin",
   "authors": [
@@ -24,7 +24,7 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Required\\PluginName\\": "inc"
+      "Required\\IframeResizerForHtmlBlock\\": "inc"
     }
   },
   "config": {

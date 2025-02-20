@@ -18,7 +18,7 @@ module.exports = {
 	// https://webpack.js.org/configuration/output/
 	output: {
 		...defaultConfig.output,
-		uniqueName: '@wearerequired/plugin-name',
+		uniqueName: '@wearerequired/iframe-resizer-for-html-block',
 		path: resolve( __dirname, 'assets/dist' ),
 		filename: '[name].js',
 	},

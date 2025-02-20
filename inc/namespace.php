@@ -5,7 +5,7 @@
 
 declare( strict_types=1 );
 
-namespace Required\PluginName;
+namespace Required\IframeResizerForHtmlBlock;
 
 use function Required\Traduttore_Registry\add_project;
 
@@ -24,7 +24,7 @@ function bootstrap(): void {
 function register_translations_project(): void {
 	add_project(
 		'plugin',
-		'plugin-name',
-		'https://translate.required.com/api/translations/plugin-name/'
+		'iframe-resizer-for-html-block',
+		'https://translate.required.com/api/translations/iframe-resizer-for-html-block/'
 	);
 }

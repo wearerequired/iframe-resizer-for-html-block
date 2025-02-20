@@ -1,11 +1,11 @@
 {
   "$schema": "https://schemas.wp.org/wp/6.2/block.json",
-  "name": "plugin-name/example",
+  "name": "iframe-resizer-for-html-block/example",
   "apiVersion": 2,
   "category": "text",
   "title": "Example Block",
   "description": "How to create a block.",
-  "textdomain": "plugin-name",
+  "textdomain": "iframe-resizer-for-html-block",
   "supports": {
     "customClassName": false,
     "html": false,
@@ -26,8 +26,8 @@
   },
   "attributes": {},
   "example": {},
-  "editorScript": "plugin-name-blocks-editor",
-  "editorStyle": "plugin-name-blocks-editor",
+  "editorScript": "iframe-resizer-for-html-block-blocks-editor",
+  "editorStyle": "iframe-resizer-for-html-block-blocks-editor",
   "style": "file:style-blocks.css",
   "viewScript": "file:example-block-view.js"
 }
