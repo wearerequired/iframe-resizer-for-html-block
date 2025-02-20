@@ -42,6 +42,5 @@ const PLUGIN_DIR  = __DIR__;
 const PLUGIN_FILE = __FILE__;
 
 require_once PLUGIN_DIR . '/inc/namespace.php';
-require_once PLUGIN_DIR . '/inc/Blocks/namespace.php';
 
 bootstrap();

@@ -5,9 +5,8 @@
   "description": "Extends the HTML block with a setting to enable iframe resizing.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wp-scripts build",
-    "start": "wp-scripts start",
-    "start:hot": "wp-scripts start --hot --allowed-hosts all",
+    "build": "WP_DEVTOOL=source-map wp-scripts build editor iframe-resizer-child iframe-resizer-parent --source-path=assets/src --output-path=assets/dist",
+    "start": "wp-scripts start editor iframe-resizer-child iframe-resizer-parent --source-path=assets/src --output-path=assets/dist",
     "lint-js": "wp-scripts lint-js",
     "lint-js:fix": "wp-scripts lint-js --fix",
     "lint-css": "wp-scripts lint-style",
@@ -38,6 +37,8 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
+    "@iframe-resizer/child": "5.3.3",
+    "@iframe-resizer/parent": "5.3.3",
     "@wordpress/icons": "10.18.0"
   },
   "stylelint": {

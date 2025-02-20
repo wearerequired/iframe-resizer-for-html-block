@@ -1,1 +1,0 @@
-window.addEventListener("load",(()=>{document.querySelectorAll(".wp-block-iframe-resizer-for-html-block-example").forEach((e=>{e.classList.add("wp-block-iframe-resizer-for-html-block-example--active")}))}));
