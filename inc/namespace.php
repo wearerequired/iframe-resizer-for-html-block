@@ -29,7 +29,10 @@ function register_assets(): void {
 		plugins_url( 'assets/dist/iframe-resizer-parent.js', PLUGIN_FILE ),
 		$script_asset['dependencies'],
 		$script_asset['version'],
-		true
+		[
+			'in_footer' => true,
+			'strategy'  => 'defer',
+		]
 	);
 
 	$script_asset = require PLUGIN_DIR . '/assets/dist/iframe-resizer-child.asset.php';
