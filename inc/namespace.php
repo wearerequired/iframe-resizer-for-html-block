@@ -115,6 +115,22 @@ function enqueue_iframe_resizer( string $block_content, array $block ): string {
 
 	if ( $has_iframe ) {
 		wp_enqueue_script( 'iframe-resizer-for-html-block-parent' );
+
+		wp_style_engine_get_stylesheet_from_css_rules(
+			[
+				[
+					'selector'     => '.iframe-resizer',
+					'declarations' => [
+						'width'  => '100%',
+						'height' => '100vh',
+						'border' => '0',
+					],
+				],
+			],
+			[
+				'context' => 'global-styles',
+			]
+		);
 	}
 
 	return $processor->get_updated_html();
