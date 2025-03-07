@@ -39,7 +39,7 @@
   "dependencies": {
     "@iframe-resizer/child": "5.3.3",
     "@iframe-resizer/parent": "5.3.3",
-    "@wordpress/icons": "10.18.0"
+    "@wordpress/icons": "10.19.0"
   },
   "stylelint": {
     "extends": [
