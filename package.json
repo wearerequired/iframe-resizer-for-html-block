@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/wearerequired/iframe-resizer-for-html-block#readme",
   "devDependencies": {
-    "@types/node": "22.13.4",
+    "@types/node": "22.13.9",
     "@types/webpack-env": "1.18.8",
     "@types/wordpress__block-editor": "11.5.16",
     "@types/wordpress__blocks": "12.5.17",
@@ -31,10 +31,10 @@
     "@wearerequired/eslint-config": "6.0.0",
     "@wearerequired/postcss-config": "1.1.0",
     "@wearerequired/stylelint-config": "6.0.0",
-    "@wordpress/element": "6.18.0",
-    "@wordpress/scripts": "30.11.0",
+    "@wordpress/element": "6.19.0",
+    "@wordpress/scripts": "30.12.0",
     "prettier": "npm:wp-prettier@3.0.3",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "dependencies": {
     "@iframe-resizer/child": "5.3.3",
