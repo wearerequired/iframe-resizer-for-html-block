@@ -103,7 +103,7 @@ function extend_html_block_attributes( array $args, string $block_type ): array 
  * @return string The updated block content.
  */
 function enqueue_iframe_resizer( string $block_content, array $block ): string {
-	$iframe_resizer_enabled = $block['attrs']['isIframeResizerEnabled'];
+	$iframe_resizer_enabled = $block['attrs']['isIframeResizerEnabled'] ?? false;
 	if ( ! $iframe_resizer_enabled ) {
 		return $block_content;
 	}
