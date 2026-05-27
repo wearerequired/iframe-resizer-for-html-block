@@ -25,3 +25,4 @@ After that, use `npm run <command>` to run a command. The following commands are
 * `npm run lint-css:fix`: Fixes automatic fixable CSS coding standard issues.
 
 Browser support for CSS and JavaScript can be adjusted through the `browserslist` property in `package.json`.
+a
