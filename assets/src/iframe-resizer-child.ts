@@ -1,1 +1,1 @@
-import '@iframe-resizer/child';
+import './vendor/open-iframe-resizer-core';
