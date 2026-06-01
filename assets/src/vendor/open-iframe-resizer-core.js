@@ -1,4 +1,4 @@
-// Vendored from https://github.com/wearerequired/open-iframe-resizer/tree/fix/resize-subsequent-navigation
+// Vendored from https://github.com/wearerequired/open-iframe-resizer
 // Temporary until fix is merged upstream
 const I = () => typeof window < "u", B = () => {
   try {
