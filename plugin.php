@@ -3,7 +3,7 @@
  * Plugin Name: iframe-resizer for HTML Block
  * Plugin URI: https://github.com/wearerequired/iframe-resizer-for-html-block
  * Description: Extends the HTML block with a setting to enable iframe resizing.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Requires at least: 6.6
  * Requires PHP: 8.2
  * Author: required
