@@ -1,8 +1,3 @@
-import iframeResize from '@iframe-resizer/parent';
+import { initialize } from './vendor/open-iframe-resizer-core';
 
-iframeResize(
-	{
-		license: 'GPLv3',
-	},
-	'.iframe-resizer'
-);
+initialize({}, '.iframe-resizer');
