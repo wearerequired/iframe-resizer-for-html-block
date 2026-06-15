@@ -1,3 +1,3 @@
-import { initialize } from './vendor/open-iframe-resizer-core';
+import { initialize } from '@open-iframe-resizer/core';
 
-initialize({}, '.iframe-resizer');
+initialize( {}, '.iframe-resizer' );

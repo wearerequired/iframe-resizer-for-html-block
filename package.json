@@ -37,6 +37,7 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
+    "@open-iframe-resizer/core": "2.4.0",
     "@wordpress/icons": "10.20.0"
   },
   "stylelint": {
