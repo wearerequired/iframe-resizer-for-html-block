@@ -30,11 +30,11 @@
     "@wearerequired/browserslist-config": "0.3.0",
     "@wearerequired/eslint-config": "6.0.1",
     "@wearerequired/postcss-config": "1.1.0",
-    "@wearerequired/stylelint-config": "6.0.0",
-    "@wordpress/element": "6.20.0",
-    "@wordpress/scripts": "31.8.0",
+    "@wearerequired/stylelint-config": "6.0.1",
+    "@wordpress/element": "8.1.0",
+    "@wordpress/scripts": "32.5.0",
     "prettier": "npm:wp-prettier@3.0.3",
-    "typescript": "5.8.2"
+    "typescript": "6.0.3"
   },
   "dependencies": {
     "@open-iframe-resizer/core": "2.4.0"
